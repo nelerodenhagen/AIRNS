@@ -15,7 +15,8 @@
     radial-gradient(circle at 85% -10%, rgba(103, 226, 249, 0.35), transparent 45%),
     rgba(255, 255, 255, 0.9);
   box-shadow: 0 30px 80px rgba(6, 31, 80, 0.12);
-  overflow: hidden;
+  overflow: visible;
+  isolation: isolate;
 }
 
 .hero__glow {
@@ -77,6 +78,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  z-index: 5;
 }
 
 .search-panel__input input {
@@ -123,7 +125,7 @@
   gap: 0.4rem;
   max-height: 320px;
   overflow-y: auto;
-  z-index: 2;
+  z-index: 10;
 }
 
 .suggestion {

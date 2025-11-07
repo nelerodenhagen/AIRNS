@@ -198,6 +198,178 @@ const patients: Patient[] = [
         notes: 'Preparing for next infusion in Dec; referral to occupational therapy placed.'
       }
     ]
+  },
+  {
+    id: 'E-992134',
+    alias: 'Patient Ember',
+    demographics: { age: 46, gender: 'Female' },
+    primaryCondition: 'Pulmonary Sarcoidosis Follow-up',
+    riskScore: 'Moderate',
+    lastUpdated: 'Oct 31, 2025 08:40',
+    journey: [
+      {
+        id: 'v-13',
+        date: 'Jan 29, 2025',
+        facility: 'Summit Pulmonology',
+        department: 'Pulmonology',
+        reason: 'Biopsy confirmation visit',
+        diagnosis: 'Pulmonary sarcoidosis stage II',
+        interventions: ['Video-assisted thoracoscopic biopsy', 'Pulmonary function testing'],
+        medications: ['Prednisone 20mg daily'],
+        notes: 'Initiated steroid taper, planned imaging surveillance at 6 months.'
+      },
+      {
+        id: 'v-14',
+        date: 'Jun 16, 2025',
+        facility: 'Summit Pulmonology',
+        department: 'Pulmonology',
+        reason: 'Response assessment follow-up',
+        diagnosis: 'Improved nodular burden, DLCO stable',
+        interventions: ['Six-minute walk test', 'Steroid taper counselling'],
+        medications: ['Prednisone 10mg daily', 'Inhaled budesonide-formoterol'],
+        notes: 'Introduced pulmonary rehab, next CT in 4 months.'
+      },
+      {
+        id: 'v-15',
+        date: 'Oct 11, 2025',
+        facility: 'Summit Imaging Center',
+        department: 'Radiology',
+        reason: 'High-resolution CT chest',
+        diagnosis: 'Stable reticulonodular pattern',
+        interventions: ['Radiology consult', 'Virtual case conference'],
+        medications: ['Prednisone 7.5mg daily', 'Inhaled budesonide-formoterol'],
+        notes: 'Cleared to continue taper; consider methotrexate if relapse.'
+      }
+    ]
+  },
+  {
+    id: 'F-660842',
+    alias: 'Patient Fjord',
+    demographics: { age: 72, gender: 'Male' },
+    primaryCondition: 'Chronic Kidney Disease Stage 4',
+    riskScore: 'High',
+    lastUpdated: 'Nov 04, 2025 16:20',
+    journey: [
+      {
+        id: 'v-16',
+        date: 'Feb 05, 2025',
+        facility: 'Evergreen Nephrology',
+        department: 'Nephrology',
+        reason: 'Quarterly renal monitoring',
+        diagnosis: 'CKD stage 4 with metabolic acidosis',
+        interventions: ['eGFR trend review', 'Dietitian consult'],
+        medications: ['Sodium bicarbonate 650mg BID', 'Losartan 50mg daily'],
+        notes: 'Discussed transplant evaluation, referred to education class.'
+      },
+      {
+        id: 'v-17',
+        date: 'Jul 08, 2025',
+        facility: 'Evergreen Infusion Suite',
+        department: 'Infusion Therapy',
+        reason: 'IV iron supplementation',
+        diagnosis: 'Iron deficiency anemia secondary to CKD',
+        interventions: ['Ferric carboxymaltose infusion', 'Symptom management coaching'],
+        medications: ['Ferric carboxymaltose 750mg', 'Sodium bicarbonate 650mg BID'],
+        notes: 'No infusion reactions, scheduled anemia lab panel in 4 weeks.'
+      },
+      {
+        id: 'v-18',
+        date: 'Sep 26, 2025',
+        facility: 'Evergreen Transplant Center',
+        department: 'Transplant Evaluation',
+        reason: 'Kidney transplant workup',
+        diagnosis: 'Candidate evaluation in progress',
+        interventions: ['Cardiac stress test', 'Psychosocial assessment'],
+        medications: ['Sodium bicarbonate 650mg BID', 'Losartan 50mg daily'],
+        notes: 'Pending panel reactive antibody results, caregiver plan documented.'
+      }
+    ]
+  },
+  {
+    id: 'G-550301',
+    alias: 'Patient Grove',
+    demographics: { age: 61, gender: 'Female' },
+    primaryCondition: 'Rheumatoid Arthritis with Biologic Therapy',
+    riskScore: 'Moderate',
+    lastUpdated: 'Nov 02, 2025 12:05',
+    journey: [
+      {
+        id: 'v-19',
+        date: 'Jan 12, 2025',
+        facility: 'Oakview Rheumatology',
+        department: 'Rheumatology',
+        reason: 'Biologic infusion maintenance',
+        diagnosis: 'Seropositive RA, low disease activity',
+        interventions: ['DAS28 score review', 'Infusion monitoring'],
+        medications: ['Infliximab 5mg/kg IV', 'Methotrexate 15mg weekly'],
+        notes: 'Inflammatory markers trending down; physical therapy recommended.'
+      },
+      {
+        id: 'v-20',
+        date: 'May 01, 2025',
+        facility: 'Oakview Labs',
+        department: 'Laboratory Medicine',
+        reason: 'Quarterly safety labs',
+        diagnosis: 'Stable hematologic profile',
+        interventions: ['CBC with differential', 'Liver function panel'],
+        medications: ['Infliximab 5mg/kg IV', 'Methotrexate 15mg weekly', 'Folic acid 1mg daily'],
+        notes: 'No dose adjustments needed, continue infusions every 8 weeks.'
+      },
+      {
+        id: 'v-21',
+        date: 'Sep 19, 2025',
+        facility: 'Oakview Digital Clinic',
+        department: 'Tele-rheumatology',
+        reason: 'Symptom flare tele-visit',
+        diagnosis: 'RA flare, mild synovitis wrists',
+        interventions: ['Short steroid burst', 'Occupational therapy referral'],
+        medications: ['Prednisone 10mg taper', 'Infliximab 5mg/kg IV'],
+        notes: 'Scheduled in-person joint ultrasound within 2 weeks.'
+      }
+    ]
+  },
+  {
+    id: 'H-773204',
+    alias: 'Patient Harbor',
+    demographics: { age: 34, gender: 'Male' },
+    primaryCondition: 'Behavioral Health Integrated Care',
+    riskScore: 'Low',
+    lastUpdated: 'Nov 03, 2025 10:10',
+    journey: [
+      {
+        id: 'v-22',
+        date: 'Mar 14, 2025',
+        facility: 'Lighthouse Behavioral Health',
+        department: 'Psychiatry',
+        reason: 'Initial psychiatric evaluation',
+        diagnosis: 'Generalized anxiety disorder',
+        interventions: ['Cognitive behavioral therapy enrollment', 'Medication initiation'],
+        medications: ['Sertraline 50mg daily'],
+        notes: 'Developed coping strategy toolkit, follow-up set in 4 weeks.'
+      },
+      {
+        id: 'v-23',
+        date: 'Jul 10, 2025',
+        facility: 'Lighthouse Virtual',
+        department: 'Tele-therapy',
+        reason: 'Session 8 CBT series',
+        diagnosis: 'Improved GAD-7 score (14 → 6)',
+        interventions: ['Exposure therapy exercises', 'Mindfulness integration'],
+        medications: ['Sertraline 75mg daily'],
+        notes: 'Created relapse prevention plan, next review in 2 months.'
+      },
+      {
+        id: 'v-24',
+        date: 'Oct 29, 2025',
+        facility: 'Lighthouse Primary Care',
+        department: 'Primary Care',
+        reason: 'Integrated care check-in',
+        diagnosis: 'Stable mood, mild insomnia',
+        interventions: ['Sleep hygiene coaching', 'Medication reconciliation'],
+        medications: ['Sertraline 50mg daily', 'Melatonin 3mg nightly'],
+        notes: 'Considering taper in Jan pending symptom stability.'
+      }
+    ]
   }
 ]
 
@@ -207,6 +379,7 @@ const fuzzyMatch = (value: string, query: string) =>
 function App() {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedPatientId, setSelectedPatientId] = useState<string>(patients[0]?.id ?? '')
+  const [isSearchActive, setIsSearchActive] = useState(false)
 
   const selectedPatient = useMemo(
     () => patients.find((patient) => patient.id === selectedPatientId),
@@ -230,6 +403,7 @@ function App() {
   const handleSelect = (patientId: string) => {
     setSelectedPatientId(patientId)
     setSearchTerm('')
+    setIsSearchActive(false)
   }
 
   return (
@@ -255,11 +429,13 @@ function App() {
                 onChange={(event) => setSearchTerm(event.target.value)}
                 placeholder="Try A-102938 or Patient Beacon"
                 autoComplete="off"
+                onFocus={() => setIsSearchActive(true)}
+                onBlur={() => setIsSearchActive(false)}
               />
               <span className="search-icon" aria-hidden="true">
                 🔍
               </span>
-              {suggestions.length > 0 && (
+              {suggestions.length > 0 && isSearchActive && (
                 <ul className="suggestions" role="listbox">
                   {suggestions.map((patient) => {
                     const isActive = patient.id === selectedPatientId
@@ -268,6 +444,7 @@ function App() {
                         key={patient.id}
                         className={isActive ? 'suggestion is-active' : 'suggestion'}
                         onClick={() => handleSelect(patient.id)}
+                        onMouseDown={(event) => event.preventDefault()}
                         onKeyDown={(event) => {
                           if (event.key === 'Enter' || event.key === ' ') {
                             event.preventDefault()
